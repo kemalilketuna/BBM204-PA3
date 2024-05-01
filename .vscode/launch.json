@@ -17,6 +17,15 @@
             "mainClass": "Main",
             "projectName": "BBM204-PA3_42926264",
             "args": ["molecularData.xml"]
-        }
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "BBM204-PA3_42926264",
+            "args": ["molecularData2.xml"]
+        },
+        
     ]
 }

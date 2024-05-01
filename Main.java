@@ -1,8 +1,12 @@
 import java.util.*;
+import java.io.*;
 
 // Main class for running the program
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
+
+        // Redirect output to testoutput.txt
+        System.setOut(new PrintStream(new FileOutputStream("testoutput.txt")));
 
         // Set the default locale to English
         Locale locale = new Locale("en_EN"); 
