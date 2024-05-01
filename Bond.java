@@ -28,4 +28,11 @@ public class Bond {
     public Double getWeight() {
         return weight;
     }
+
+    public String toString() {
+        // M49 - M145 with strength 22.00
+        String firstID = (from.getId().compareTo(to.getId()) > 0) ? from.getId() : to.getId();
+        String secondID = (from.getId().compareTo(to.getId()) > 0) ? to.getId() : from.getId();
+        return firstID + " - " + secondID + " with strength " + String.format("%.2f", weight);
+    }
 }
