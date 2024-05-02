@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.management.relation.MBeanServerNotificationFilter;
-
 // Class representing molecular data
 public class MolecularData {
 
